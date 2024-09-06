@@ -1,7 +1,9 @@
 sources:
   - name: ads_platform
+    description: Source for all ads related data
     schema: bingeflix
     database: raw
     tables:
       - name: daily_ads
         identifier: ads
+        description: Table that represents ads spends

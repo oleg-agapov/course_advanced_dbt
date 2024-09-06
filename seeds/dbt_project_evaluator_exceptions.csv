@@ -1,2 +1,5 @@
 fct_name,column_name,id_to_exclude,comment
 fct_undocumented_models,RESOURCE_NAME,fct_events,I want to make an exception for this model
+fct_model_naming_conventions,MODEL_TYPE,marts,All marts can be without prefixes
+fct_root_models,CHILD,int_dates,
+fct_model_fanout,PARENT_MODEL_TYPE,staging,
