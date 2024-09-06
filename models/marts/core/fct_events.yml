@@ -1,7 +1,7 @@
 models:
   - name: fct_events
     description: Event table with user events
-    
+
     columns:
     - name: session_id
       description: Session identifier
