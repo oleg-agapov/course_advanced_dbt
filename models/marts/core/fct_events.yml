@@ -14,6 +14,8 @@ models:
 
     - name: event_name
       description: Name of the occured event
+      data_tests:
+        - assert_valid_event_name
 
     - name: event_id
       description: Unique identifier of the event
